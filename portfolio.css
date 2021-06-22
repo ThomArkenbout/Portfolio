@@ -1,0 +1,19 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#navbar {
+    height: 4vh;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: beige;
+}
+
+#welcome-section {
+    height: 96vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
