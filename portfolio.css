@@ -5,8 +5,9 @@ body {
 }
 
 /*
-#ff752E
-#2eb8ff
+rgba(20, 20, 25, 1); black
+rgba(255, 117, 46, 1); orange
+rgba(46, 184, 255, 1); blue
 */
 
 #navbar {
@@ -48,9 +49,28 @@ body {
     color: rgba(255, 117, 46, 1);
 }
 
+h2{
+    margin: 0;
+}
 
 #projects {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr auto;
-    grid-template-rows:  1fr 1fr;
+    height: 62rem;
+    text-align: center;
 }
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows:  28rem 28rem;
+    gap: 3rem 3rem;
+    width: 81rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(50, 50, 55, 1);
+}
+
+.project-tile {
+    height: 28rem;
+    width: 25rem;
+}
+
